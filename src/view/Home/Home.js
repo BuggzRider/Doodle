@@ -41,7 +41,7 @@ const Home = () => {
     console.log(value)
     setIsSuggesstionsVisible(false)
     if (filteredOptions.length === 0)
-      setSearchOptions([...searchOptions, { text: value }])
+      setSearchOptions([{ text: value }, ...searchOptions])
   }
 
   return (
