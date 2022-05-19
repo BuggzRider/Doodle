@@ -1,0 +1,13 @@
+.home {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 13vh;
+  .page_heading {
+    font-size: 120px;
+    color: white;
+    margin-bottom: 35px;
+  }
+}

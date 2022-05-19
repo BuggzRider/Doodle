@@ -1,0 +1,33 @@
+.searchBarInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  padding: 2px 5px;
+  background-color: #202124;
+  border-radius: 30px;
+  border: 1px solid #9aa0a6;
+  i{
+    color: #9aa0a6;
+    margin: 0 10px;
+  }
+  .inputBar {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    background-color: #202124;
+    color: white;
+    border-radius: 30px;
+    &:hover{
+      background-color: #303134;
+    }
+  }
+  &:hover{
+    background-color: #303134;
+  }
+  &:focus{
+    background-color: #303134;
+  }
+}

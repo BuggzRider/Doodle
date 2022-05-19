@@ -1,0 +1,19 @@
+.btn {
+  background-color: #3c4043;
+  border: 1px solid #3c4043;
+  border-radius: 4px;
+  color: #e8eaed;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  &:hover {
+    background-color: #3c4043;
+    border: 1px solid #5f6368;
+    color: #e8eaed;
+  }
+}

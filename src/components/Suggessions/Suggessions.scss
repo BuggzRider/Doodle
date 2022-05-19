@@ -1,0 +1,28 @@
+.suggesstions_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  .suggessionOption {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 19px;
+    cursor: pointer;
+    .suggessionOption_text {
+    }
+    .suggessionOption_button{
+      border: none;
+      background: transparent;
+      color: white;
+      &:hover{
+        text-decoration: underline;
+        color: blue;
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.searchBarWithSuggesstions_container {
+  background-color: #303134;
+  width: 27vw;
+  border-radius: 24px;
+  .searchButtons_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
